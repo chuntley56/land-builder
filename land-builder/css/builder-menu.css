@@ -1,0 +1,38 @@
+.preview-menu {
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+  background: #000;
+}
+
+.preview-menu-row {
+  padding: 5px 0;
+}
+
+.preview-menu-row a {
+  color: #fff;
+  padding: 0 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.preview-menu-row a:hover {
+  color: #b1b1b1;
+}
+
+.preview-menu-row span {
+  color: #ccc;
+  padding: 0 5px;
+  font-size: 15px;
+}
+
+.preview-menu-top {
+  width: 100%;
+  background: blue;
+}
+
+.preview-menu-top span {
+  color: #fff;
+  padding: 0 5px;
+  font-size: 15px;
+}

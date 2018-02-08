@@ -1,0 +1,72 @@
+h1 {
+  color: $white;
+  font-family: $font-family-second;
+  font-size: 42px;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.hero-text span {
+  color: $color-third;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5px auto;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px auto;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  margin: 5px auto;
+}
+
+.countdown {
+  color: $white;
+  font-family: $font-family-second;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 7px 0;
+}
+
+.offer-terms h3 {
+  margin: 0 auto 3px;
+  font-size: 28px;
+  color: $color-main;
+  letter-spacing: -0.25px;
+}
+
+.offer-terms h4 {
+  margin: 0 auto;
+}
+
+.offer-main-color {
+  color: $offer-main-color;
+}
+
+.offer-sub-color {
+  color: $offer-sub-color;
+}
+
+@media (max-width: 374px) {
+  h1 {
+    font-size: 38px;
+  }
+}

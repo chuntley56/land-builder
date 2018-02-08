@@ -1,0 +1,40 @@
+{
+  "name": "start-land-subscribe",
+  "version": "1.0.0",
+  "description": "Start Land Subscribe Gulp Build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tribpubdev/start-land-subscribe"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tribpubdev/start-land-subscribe"
+  },
+  "homepage": "https://github.com/tribpubdev/start-land-subscribe",
+  "devDependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "browser-sync": "^2.11.2",
+    "csswring": "^5.1.0",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-copy": "0.0.2",
+    "gulp-csso": "^1.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.2.0",
+    "imagemin-pngquant": "^4.2.2",
+    "jshint": "^2.9.1",
+    "rucksack-css": "^0.8.6"
+  }
+}

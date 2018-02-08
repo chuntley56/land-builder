@@ -1,0 +1,17 @@
+#ide:sublime text, phpstorm, webstorm
+*.sublime-settings*
+.idea/
+#assets
+psd/
+*.psd
+doc/
+*.docx
+jpg/
+*.zip
+#mac osx
+.DS_Store
+#css/sass
+.sass-cache
+*.css.map
+#node_modules
+**/node_modules

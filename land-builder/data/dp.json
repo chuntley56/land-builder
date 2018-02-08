@@ -1,0 +1,102 @@
+[{ 		"assets" : {
+			"market" : "Daily Press",
+			"logo" : "img/dp/logo.svg",
+			"logo_width" : "240px",
+			"logo_height" : "69px",
+			"header_padding" : "5px 0 0",
+			"img_device_left" : "img/dp/device-digital.jpg",
+			"img_device_2x_left" : "img/dp/device-digital-2x.jpg",
+			"img_device_middle" : "img/dp/device-print-2x.jpg",
+			"img_device_2x_middle" : "img/dp/device-print-2x.jpg",
+			"img_device_right" : "img/dp/device-print-2x.jpg",
+			"img_device_2x_right" : "img/dp/device-print-2x.jpg",
+			"img_lockup_left" : "",
+			"img_lockup_middle" : "",
+			"img_lockup_right" : "img/50-off.svg",
+			"product_left" : "Unlimited Digital Access",
+			"price_left" : "Then $1.99/week, ",
+			"step_up_left" : "cancel anytime",
+			"cta_left" : "SAVE NOW",
+			"bullet_1_left" : "Unlimited access to all digital content",
+			"bullet_2_left" : "The eNewspaper, emailed daily",
+			"bullet_3_left" : "Our app with breaking news alerts",
+			"product_middle" : "Sunday &plus; Unlimited Digital&nbspAccess",
+			"price_middle" : "Then $1.99/week,",
+			"step_up_middle" : " cancel anytime",
+			"cta_middle" : "SAVE NOW",
+			"bullet_1_middle" : "Sunday home delivery",
+			"bullet_2_middle" : "Money-saving coupons",
+			"bullet_3_middle" : "Includes Unlimited Digital Access",
+			"bullet_4_middle" : "Or add 7 Day Delivery + Digital",
+			"product_right" : "7-Day Delivery &plus; Unlimited Digital Access",
+			"price_right" : "$4.49&hairsp;/&hairsp;week",
+			"step_up_right" : "Cancel Anytime",
+			"cta_right" : "Subscribe",
+			"bullet_1_right" : "7 Day home delivery",
+			"bullet_2_right" : "Money-saving coupons",
+			"bullet_3_right" : "Includes Unlimited Digital Access",
+			"link_activate" : "//myaccount2.dailypress.com/dssmatch.aspx",
+			"link_home" : "//www.dailypress.com",
+			"link_faq" : "//membership.dailypress.com/faq",
+			"link_contact" : "//www.dailypress.com/about/dp-contact-us-htmlstory.html"
+		},
+		"pids" : {
+			"index": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"ad": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"adalt": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"email": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"emailalt": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"manage": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"member": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"message": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"sem": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"social": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			},
+			"whisper": {
+				"pid_uda": "#",
+				"pid_mix": "#",
+				"pid_7day": "#"
+			}
+
+		}
+	}
+]

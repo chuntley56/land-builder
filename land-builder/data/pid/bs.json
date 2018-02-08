@@ -1,0 +1,18 @@
+[{ "pids" : {
+	"index": {
+		"pid_uda": "index_pid_uda",
+		"pid_mix": "index_pid_mix",
+		"pid_7day": "index_pid_7day"
+	},
+		"email": {
+			"pid_uda": "email_pid_uda",
+			"pid_mix": "email_pid_mix",
+			"pid_7day": "email_pid_7day"
+		},
+		"sem": {
+			"pid_uda": "sem_pid_uda",
+			"pid_mix": "sem_pid_mix",
+			"pid_7day": "sem_pid_7day"
+		}
+}
+}]
