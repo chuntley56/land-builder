@@ -2,188 +2,188 @@
 <html lang="en">
 
 <head>
-  <title></title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/main.css" rel="stylesheet" />
-  <link href="css/builder-menu.css" rel="stylesheet" />
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/jsrender.min.js"></script>
-  <script src="js/main.min.js"></script>
-  <script src="js/builder-menu.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400i,900i" rel="stylesheet">
+	<title></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/builder-menu.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.90/jsrender.min.js"></script>
+	<script src="js/main.min.js"></script>
+	<script src="js/builder-menu.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400i,900i" rel="stylesheet">
 </head>
 
 <body>
-  <div class="preview-menu">
-    <div class="preview-menu-row">
-      <span>Market:</span>
-      <a id="btn-bs" value="bs">BS</a>
-      <a id="btn-cc" value="cc">CC</a>
-      <a id="btn-cg" value="cg">CG</a>
-      <a id="btn-ct" value="ct">CT</a>
-      <a id="btn-dp" value="dp">DP</a>
-      <a id="btn-hc" value="hc">HC</a>
-      <a id="btn-la" value="la">LA</a>
-      <a id="btn-mc" value="mc">MC</a>
-      <a id="btn-os" value="os">OS</a>
-      <a id="btn-sd" value="sd">SD</a>
-      <a id="btn-ss" value="ss">SS</a>
-      <a id="btn-tw" value="tw">TW</a>
-      <a id="btn-vg" value="vg">VG</a>
-    </div>
-    <div class="preview-menu-row">
-      <span>Source:</span>
-      <a id="btn-index" value="index">Index</a>
-      <a id="btn-email" value="email">Email</a>
-      <a id="btn-emailalt" value="emailalt">Email-alt</a>
-      <a id="btn-sem" value="sem">Sem</a>
-      <a id="btn-manage" value="manage">Manage</a>
-      <a id="btn-message" value="message">Message</a>
-      <a id="btn-member" value="member">Member</a>
-      <a id="btn-whisper" value="whisper">Whisper</a>
-      <a id="btn-ad" value="ad">Ad</a>
-      <a id="btn-adalt" value="adalt">Ad-alt</a>
-    </div>
-    <div class="preview-menu-row">
-      <a id="btn-prod" value="prod">Hide Builder Menu</a>
-    </div>
-  </div>
-  <script type="text/x-jsrender" id="mainTemplate">
-    <div class="wrapper">
-      <header style="padding:{{:assets.header_padding}};">
-        <div class="header-logo">
-          <a alt="{{:assets.market}}" href="{{:assets.link_home}}"><img class="img-responsive center-block" alt="{{:assets.market}} Logo" src="{{:assets.logo}}" style="width:{{:assets.logo_width}};height:{{:assets.logo_height}};"/></a>
-        </div>
-      </header>
-      <div class="container-fluid content">
-        <div class="row text-center">
-          <div class="hero">
-            <h1 class="hero-text">DON'T <span>MISS OUT!</span></h1>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-xs-12">
-            <div id="countdown1" class="countdown">
-              <span>
+	<div class="preview-menu">
+		<div class="preview-menu-row">
+			<span>Market:</span>
+			<a id="btn-bs" value="bs">BS</a>
+			<a id="btn-cc" value="cc">CC</a>
+			<a id="btn-cg" value="cg">CG</a>
+			<a id="btn-ct" value="ct">CT</a>
+			<a id="btn-dp" value="dp">DP</a>
+			<a id="btn-hc" value="hc">HC</a>
+			<a id="btn-la" value="la">LA</a>
+			<a id="btn-mc" value="mc">MC</a>
+			<a id="btn-os" value="os">OS</a>
+			<a id="btn-sd" value="sd">SD</a>
+			<a id="btn-ss" value="ss">SS</a>
+			<a id="btn-tw" value="tw">TW</a>
+			<a id="btn-vg" value="vg">VG</a>
+		</div>
+		<div class="preview-menu-row">
+			<span>Source:</span>
+			<a id="btn-index" value="index">Index</a>
+			<a id="btn-email" value="email">Email</a>
+			<a id="btn-emailalt" value="emailalt">Email-alt</a>
+			<a id="btn-sem" value="sem">Sem</a>
+			<a id="btn-manage" value="manage">Manage</a>
+			<a id="btn-message" value="message">Message</a>
+			<a id="btn-member" value="member">Member</a>
+			<a id="btn-whisper" value="whisper">Whisper</a>
+			<a id="btn-ad" value="ad">Ad</a>
+			<a id="btn-adalt" value="adalt">Ad-alt</a>
+		</div>
+		<div class="preview-menu-row">
+			<a id="btn-prod" value="prod">Hide Builder Menu</a>
+		</div>
+	</div>
+	<script type="text/x-jsrender" id="mainTemplate">
+		<div class="wrapper" style="background-image: url('{{:assets.bg_lg}}'); background-repeat: no-repeat; background-size: cover; background-color:{{:assets.bg_color}};">
+			<header style="padding:{{:assets.header_padding}};">
+				<div class="header-logo">
+					<a alt="{{:assets.market}}" href="{{:assets.link_home}}"><img class="img-responsive center-block" alt="{{:assets.market}} Logo" src="{{:assets.logo}}" style="width:{{:assets.logo_width}};height:{{:assets.logo_height}};"/></a>
+				</div>
+			</header>
+			<div class="container-fluid content">
+				<div class="row text-center">
+					<div class="hero">
+						<h1 class="hero-text">DON'T <span>MISS OUT!</span></h1>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-xs-12">
+						<div id="countdown1" class="countdown">
+							<span>
               Hurry, offer ends October 31
             </span>
-            </div>
-            <div id="countdown2" class="countdown">
-              <span>
+						</div>
+						<div id="countdown2" class="countdown">
+							<span>
               Hurry, offer ends Tuesday
             </span>
-            </div>
-            <div id="countdown3" class="countdown">
-              <span>
+						</div>
+						<div id="countdown3" class="countdown">
+							<span>
               Hurry, offer ends tomorrow
             </span>
-            </div>
-            <div id="countdown4" class="countdown">
-              <span>
+						</div>
+						<div id="countdown4" class="countdown">
+							<span>
               Last chance, offer ends today
             </span>
-            </div>
-          </div>
-        </div>
-        <div class="row panel-row center-block">
-          <div class="col-sm-6 text-center no-gutter">
-            <div class="panel panel-default panel-half">
-              <a href="{{:pids[~idgroup].pid_uda}}"><img class="img-responsive center-block device-img" src="{{:assets.img_device_2x_left}}" /></a>
-              <div class="panel-body">
-                <h2 class="offer-main-color">{{:assets.product_left}}</h2>
-                <div class="offer-terms">
-                  <h3>Only $1 for 3 months</h3>
-                  <h4>Then $1.99&hairsp;/&hairsp;week, cancel anytime</h4>
-                </div>
-                <div class="cta-div">
-                  <a class="btn cta-btn cta-btn-lg cta-btn-no-zip" href="{{:pids[~idgroup].pid_uda}}" role="button">{{:assets.cta_left}} <img class="arrow" alt="arrow" src="img/arrow.svg"/></a>
-                </div>
-                <ul class="offer-bullets">
-                  <li>
-                    Unlimited access to all digital content
-                  </li>
-                  <li>
-                    The eNewspaper, emailed daily
-                  </li>
-                  <li>
-                    Our app with breaking news alerts
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 text-center no-gutter">
-            <div class="panel panel-default panel-half">
-              <img id="device-print" class="img-responsive center-block device-img" src="{{:assets.img_device_2x_middle}}" />
-              <div class="panel-body">
-                <h2 class="offer-main-color">{{:assets.product_middle}}</h2>
-                <div class="offer-terms">
-                  <h3>Only $1 for 3 months</h3>
-                  <h4>{{:assets.price_middle}}{{:assets.step_up_middle}}</h4>
-                </div>
-                <div class="cta-div">
-                  <a class="btn cta-btn cta-btn-lg cta-btn-zip mix-btn">{{:assets.cta_middle}} <img class="arrow" alt="arrow" src="img/arrow.svg"/></a>
-                  <div class="cta-input-div">
-                    <input id="mix-input" class="cta-input" type="tel" placeholder="Enter Zip Code" required maxlength="5" pattern="/^\b\d{5}(-\d{4})?\b$/">
-                    <a class="btn cta-btn cta-btn-sm cta-btn-expand" href="{{:pids[~idgroup].pid_mix}}">GO</a><img class="loader" style="display:none" src="img/loading.svg" />
-                    <div class="cta-error">
-                      <!-- span holds error message -->
-                      <span></span>
-                    </div>
-                  </div>
-                </div>
-                <ul class="offer-bullets">
-                  <li>
-                    {{:assets.bullet_1_middle}}
-                  </li>
-                  <li>
-                    {{:assets.bullet_2_middle}}
-                  </li>
-                  <li>
-                    {{:assets.bullet_3_middle}}
-                  </li>
-                  <li class="offer-text-list-item">
-                    <div class="cta-div2">
-                      <a class="cta-btn-zip mix-btn2 offer-text-link">{{:assets.bullet_4_middle}}</a>
-                      <div class="cta-input-div2">
-                        <input id="mix-input" class="cta-input" type="tel" placeholder="Enter Zip Code" required maxlength="5" pattern="/^\b\d{5}(-\d{4})?\b$/">
-                        <a class="btn cta-btn cta-btn-sm cta-btn-expand" href="{{:pids[~idgroup].pid_7day}}">GO</a><img class="loader" style="display:none" src="img/loading.svg" />
-                        <div class="cta-error">
-                          <!-- span holds error message -->
-                          <span></span>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+						</div>
+					</div>
+				</div>
+				<div class="row panel-row center-block">
+					<div class="col-sm-6 text-center no-gutter">
+						<div class="panel panel-default panel-half">
+							<a href="{{:pids[~idgroup].pid_uda}}"><img class="img-responsive center-block device-img" src="{{:assets.img_device_2x_left}}" /></a>
+							<div class="panel-body">
+								<h2 class="offer-main-color">{{:assets.product_left}}</h2>
+								<div class="offer-terms">
+									<h3>Only $1 for 3 months</h3>
+									<h4>Then $1.99&hairsp;/&hairsp;week, cancel anytime</h4>
+								</div>
+								<div class="cta-div">
+									<a class="btn cta-btn cta-btn-lg cta-btn-no-zip" href="{{:pids[~idgroup].pid_uda}}" role="button" style="background:{{:assets.btn_bg_color}};">{{:assets.cta_left}} <img class="arrow" alt="arrow" src="img/arrow.svg"/></a>
+								</div>
+								<ul class="offer-bullets">
+									<li>
+										Unlimited access to all digital content
+									</li>
+									<li>
+										The eNewspaper, emailed daily
+									</li>
+									<li>
+										Our app with breaking news alerts
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 text-center no-gutter">
+						<div class="panel panel-default panel-half">
+							<img id="device-print" class="img-responsive center-block device-img" src="{{:assets.img_device_2x_middle}}" />
+							<div class="panel-body">
+								<h2 class="offer-main-color">{{:assets.product_middle}}</h2>
+								<div class="offer-terms">
+									<h3>Only $1 for 3 months</h3>
+									<h4>{{:assets.price_middle}}{{:assets.step_up_middle}}</h4>
+								</div>
+								<div class="cta-div">
+									<a class="btn cta-btn cta-btn-lg cta-btn-zip mix-btn" style="background:{{:assets.btn_bg_color}};">{{:assets.cta_middle}} <img class="arrow" alt="arrow" src="img/arrow.svg"/></a>
+									<div class="cta-input-div">
+										<input id="mix-input" class="cta-input" type="tel" placeholder="Enter Zip Code" required maxlength="5" pattern="/^\b\d{5}(-\d{4})?\b$/">
+										<a class="btn cta-btn cta-btn-sm cta-btn-expand" href="{{:pids[~idgroup].pid_mix}}" style="background:{{:assets.btn_bg_color}};">GO</a><img class="loader" style="display:none" src="img/loading.svg" />
+										<div class="cta-error">
+											<!-- span holds error message -->
+											<span></span>
+										</div>
+									</div>
+								</div>
+								<ul class="offer-bullets">
+									<li>
+										{{:assets.bullet_1_middle}}
+									</li>
+									<li>
+										{{:assets.bullet_2_middle}}
+									</li>
+									<li>
+										{{:assets.bullet_3_middle}}
+									</li>
+									<li class="offer-text-list-item">
+										<div class="cta-div2">
+											<a class="cta-btn-zip mix-btn2 offer-text-link">{{:assets.bullet_4_middle}}</a>
+											<div class="cta-input-div2">
+												<input id="mix-input" class="cta-input" type="tel" placeholder="Enter Zip Code" required maxlength="5" pattern="/^\b\d{5}(-\d{4})?\b$/">
+												<a class="btn cta-btn cta-btn-sm cta-btn-expand" href="{{:pids[~idgroup].pid_7day}}" style="background:{{:assets.btn_bg_color}};">GO</a><img class="loader" style="display:none" src="img/loading.svg" />
+												<div class="cta-error">
+													<!-- span holds error message -->
+													<span></span>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-      <div class="push">
-      </div>
-    </div>
-    <footer>
-      <div class="footer-links clearfix">
-        <ul class="footer-list">
-          <li>Print subscriber? <a href="{{:assets.link_activate}}">Activate digital access</a></li>
-          <li><a href="{{:assets.link_home}}">Home</a></li>
-          <li><a href="{{:assets.link_faq}}">FAQ</a></li>
-          <li><a href="{{:assets.link_contact}}">Contact Us</a></li>
-          <li><a href="//www.tronc.com/central-terms-of-service">Terms of Service</a></li>
-          <li><a href="//www.tronc.com/privacy-policy">Privacy Policy</a></li>
-        </ul>
-      </div>
-    </footer>
-  </script>
+			<div class="push">
+			</div>
+		</div>
+		<footer>
+			<div class="footer-links clearfix">
+				<ul class="footer-list">
+					<li>Print subscriber? <a href="{{:assets.link_activate}}">Activate digital access</a></li>
+					<li><a href="{{:assets.link_home}}">Home</a></li>
+					<li><a href="{{:assets.link_faq}}">FAQ</a></li>
+					<li><a href="{{:assets.link_contact}}">Contact Us</a></li>
+					<li><a href="//www.tronc.com/central-terms-of-service">Terms of Service</a></li>
+					<li><a href="//www.tronc.com/privacy-policy">Privacy Policy</a></li>
+				</ul>
+			</div>
+		</footer>
+	</script>
 
-  <div class="mainContainer">
-  </div>
+	<div class="mainContainer">
+	</div>
 
 </body>
 

@@ -38,7 +38,8 @@
 			"link_activate" : "//myaccount2.baltimoresun.com/dssmatch.aspx",
 			"link_home" : "//www.baltimoresun.com",
 			"link_faq" : "//membership.baltimoresun.com/faq",
-			"link_contact" : "//www.baltimoresun.com/bal-customer-service-htmlstory.html"
+			"link_contact" : "//www.baltimoresun.com/bal-customer-service-htmlstory.html",
+			"bkg_img" : "img/bs/bg-lg.jpg"
 		},
 			"pids" : {
 				"index": {

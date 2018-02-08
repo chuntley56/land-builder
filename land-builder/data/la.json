@@ -38,7 +38,11 @@
 			"link_activate" : "//myaccount2.latimes.com/dssmatch.aspx",
 			"link_home" : "//www.latimes.com",
 			"link_faq" : "//membership.latimes.com/faq",
-			"link_contact" : "//www.latimes.com/about/la-contact-us-htmlstory.html"
+			"link_contact" : "//www.latimes.com/about/la-contact-us-htmlstory.html",
+			"bg_lg" : "img/la/bg-lg.jpg",
+			"bg_sm" : "img/la/bg-sm.jpg",
+			"bg_color" : "#0a4483",
+			"btn_bg_color" : "#fd5b4b"
 		},
 		"pids" : {
 			"index": {

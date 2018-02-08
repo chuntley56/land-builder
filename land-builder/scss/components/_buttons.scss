@@ -1,134 +1,135 @@
 a:focus,
 a:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .btn {
-  vertical-align: 0;
+	vertical-align: 0;
 }
 
 .cta-btn,
 .cta-btn:active,
 .cta-btn:focus,
 .cta-btn:visited {
-  background: $btn-bkg-color;
-  color: $btn-text-color;
-  border-radius: 4px;
-  line-height: 1.8em;
-  height: 50px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 7px 0;
+	background: $btn-bkg-color;
+	color: $btn-text-color;
+	border-radius: 4px;
+	line-height: 1.8em;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 7px 0;
 }
 
 .cta-btn:hover {
-  background: $btn-bkg-hover-color;
-  color: $btn-text-color;
+	background: $btn-bkg-hover-color;
+	color: $btn-text-color;
+	opacity: 0.9;
 }
 
 .cta-btn-lg {
-  width: 225px;
-  margin: 0 auto;
+	width: 225px;
+	margin: 0 auto;
 }
 
 .cta-btn-sm {
-  width: 50px;
-  margin: 0 auto;
+	width: 50px;
+	margin: 0 auto;
 }
 
 .cta-div {
-  height: 50px;
-  padding: 0;
+	height: 50px;
+	padding: 0;
 }
 
 .cta-div2 {
-  height: 60px;
-  padding: 0;
+	height: 60px;
+	padding: 0;
 }
 
 .cta-input-div,
 .cta-input-div2 {
-  display: none;
-  width: 250px;
-  margin: 0 auto;
+	display: none;
+	width: 250px;
+	margin: 0 auto;
 }
 
 .cta-input {
-  border: 1px solid $input-border-color;
-  border-radius: 4px;
-  display: inline-block;
-  margin-right: 6px;
-  height: 50px;
-  width: 180px;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 10px;
-  vertical-align: top;
+	border: 1px solid $input-border-color;
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 6px;
+	height: 50px;
+	width: 180px;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	vertical-align: top;
 }
 
 .cta-input.error {
-  border: 1px solid $invalid;
+	border: 1px solid $invalid;
 }
 
 input:focus {
-  outline: 0;
+	outline: 0;
 }
 
 .cta-error {
-  color: $invalid;
-  padding-left: 5px;
-  text-align: left;
+	color: $invalid;
+	padding-left: 5px;
+	text-align: left;
 
-  span {
-    display: block;
-    font-size: 11px;
-    font-weight: 400;
-  }
+	span {
+		display: block;
+		font-size: 11px;
+		font-weight: 400;
+	}
 }
 
 .offer-text-list-item {
-  margin: 0;
+	margin: 0;
 }
 
 .offer-text-link {
-  position: relative;
-  top: 10px;
+	position: relative;
+	top: 10px;
 }
 
 .offer-text-link,
 .offer-text-link:active,
 .offer-text-link:focus,
 .offer-text-link:visited {
-  color: $offer-text-link-color;
-  text-decoration: underline;
-  font-weight: 700;
-  cursor: pointer;
-  font-size: 14px;
+	color: $offer-text-link-color;
+	text-decoration: underline;
+	font-weight: 700;
+	cursor: pointer;
+	font-size: 14px;
 }
 
 .offer-text-link:hover {
-  color: darken($offer-text-link-color, 5%);
-  text-decoration: underline;
-  font-weight: 700;
-  cursor: pointer;
-  font-size: 14px;
+	color: darken($offer-text-link-color, 5%);
+	text-decoration: underline;
+	font-weight: 700;
+	cursor: pointer;
+	font-size: 14px;
 }
 
 .loader {
-  height: 50px;
-  width: 50px;
-  background: $btn-bkg-color;
-  border-radius: 5px;
-  padding: 2px;
+	height: 50px;
+	width: 50px;
+	background: $btn-bkg-color;
+	border-radius: 5px;
+	padding: 2px;
 }
 
 #device-print {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .arrow {
-  margin: 0 0 4px 2px;
-  height: 23px;
-  width: 23px;
+	margin: 0 0 4px 2px;
+	height: 23px;
+	width: 23px;
 }

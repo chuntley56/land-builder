@@ -17,7 +17,7 @@ $purple: #3e5684;
 $yellow: #f4fb4b;
 $btn-main: #de5656;
 $color-main: #ff6278;
-$color-second: #ff6278;
+$color-second: #1e1e1e;
 $color-third: #3ee5e6;
 $color-fourth: #3748e8;
 $callout-bkg: $color-main;
@@ -37,15 +37,15 @@ $font-family-second: 'Lato', Arial, sans-serif;
 
 // --- Element Colors ---
 // Body
-$body-bkg-color: #f5f5f5;
+$body-bkg-color: #05add5;
 // Footer
 $footer-bkg-color: rgba(0,0,0,0.1);
-$footer-text-color: $black;
-$footer-text-hover-color: $black;
+$footer-text-color: $white;
+$footer-text-hover-color: $white;
 $footer-font-size: 13px;
 // Buttons
-$btn-bkg-color: $color-main;
-$btn-bkg-hover-color: darken($color-main, 2%);
+$btn-bkg-color: #af0c2e;
+$btn-bkg-hover-color: darken($btn-bkg-color, 2%);
 $btn-text-color: $white;
 $input-border-color: $gray-50;
 // Text
@@ -53,7 +53,7 @@ $main-text-color: $black;
 $offer-main-color: $black;
 $offer-sub-color: $black;
 // Offer Text Link (optional)
-$offer-text-link-color: $color-main;
+$offer-text-link-color: $color-second;
 $offer-text-link-hover-color: darken($offer-text-link-color, 5%); // Zip Code Check Colors
 $invalid: darken($error, 5%);
 $valid: $green;
