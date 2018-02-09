@@ -8,6 +8,7 @@ A tool that helps you build a large number of landing pages. Uses JsRender to dy
 4. To turn menu back on, delete "&view=prod" from query string
 
 ## Dev instructions
-* Data comes from JSON files which are divided by market (bs-baltimore, ct-chicago, etc.). 
+* Data comes from JSON files which are divided by market (bs-baltimore, ct-chicago, etc.)
 * HTML must be within JsRender script tag: `<script type="text/x-jsrender" id="mainTemplate"></script>`
 * Rendered HTML populates the mainContainer div that comes after the JsRender script tag: `<div class="mainContainer"></div>`
+* builder-menu.js only controls the menu, this can be removed for production
