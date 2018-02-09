@@ -27,8 +27,8 @@
 			"link_contact" : "//www.sun-sentinel.com/sfl-contact-us-20140917-htmlstory.html",
 			"bg_lg" : "img/ss/bg-lg.jpg",
 			"bg_sm" : "img/ss/bg-sm.jpg",
-			"bg_color" : "#0a4483",
-			"btn_bg_color" : "#fd5b4b"
+			"bg_color" : "#000",
+			"btn_bg_color" : "#d80000"
 		},
 		"pids" : {
 			"index": {

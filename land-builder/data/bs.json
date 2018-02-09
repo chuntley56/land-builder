@@ -27,8 +27,8 @@
 			"link_contact" : "//www.baltimoresun.com/bal-customer-service-htmlstory.html",
 			"bg_lg" : "img/bs/bg-lg.jpg",
 			"bg_sm" : "img/bs/bg-sm.jpg",
-			"bg_color" : "#0a4483",
-			"btn_bg_color" : "#fd5b4b"
+			"bg_color" : "#000",
+			"btn_bg_color" : "#DAA520"
 		},
 			"pids" : {
 				"index": {

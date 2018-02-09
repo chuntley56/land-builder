@@ -27,8 +27,8 @@
 			"link_contact" : "//www.courant.com/about/hc-contact-us-ngux-htmlstory.html",
 			"bg_lg" : "img/hc/bg-lg.jpg",
 			"bg_sm" : "img/hc/bg-sm.jpg",
-			"bg_color" : "#0a4483",
-			"btn_bg_color" : "#fd5b4b"
+			"bg_color" : "#000",
+			"btn_bg_color" : "#C52026"
 		},
 		"pids" : {
 			"index": {

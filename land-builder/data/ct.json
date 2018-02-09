@@ -27,8 +27,8 @@
 			"link_contact" : "//www.chicagotribune.com/about/chi-newspaperemail-htmlstory.html",
 			"bg_lg" : "img/ct/bg-lg.jpg",
 			"bg_sm" : "img/ct/bg-sm.jpg",
-			"bg_color" : "#0a4483",
-			"btn_bg_color" : "#fd5b4b"
+			"bg_color" : "#000",
+			"btn_bg_color" : "#004E87"
 		},
 		"pids" : {
 			"index": {

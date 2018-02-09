@@ -27,8 +27,8 @@
 			"link_contact" : "//www.orlandosentinel.com/about/os-contact-us-htmlstory.html",
 			"bg_lg" : "img/os/bg-lg.jpg",
 			"bg_sm" : "img/os/bg-sm.jpg",
-			"bg_color" : "#0a4483",
-			"btn_bg_color" : "#fd5b4b"
+			"bg_color" : "#00919e",
+			"btn_bg_color" : "#fd7400"
 		},
 		"pids" : {
 			"index": {
