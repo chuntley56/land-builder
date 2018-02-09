@@ -8,43 +8,43 @@ $(document).ready(function () {
 
 
 $("#btn-bs").click(function() {
-		window.location.replace("?market=bs");
+		window.location.replace("?market=bs&source=index");
 });
 $("#btn-cc").click(function() {
-		window.location.replace("?market=cc");
+		window.location.replace("?market=cc&source=index");
 });
 $("#btn-cg").click(function() {
-		window.location.replace("?market=cg");
+		window.location.replace("?market=cg&source=index");
 });
 $("#btn-ct").click(function() {
-		window.location.replace("?market=ct");
+		window.location.replace("?market=ct&source=index");
 });
 $("#btn-dp").click(function() {
-		window.location.replace("?market=dp");
+		window.location.replace("?market=dp&source=index");
 });
 $("#btn-hc").click(function() {
-		window.location.replace("?market=hc");
+		window.location.replace("?market=hc&source=index");
 });
 $("#btn-la").click(function() {
-		window.location.replace("?market=la");
+		window.location.replace("?market=la&source=index");
 });
 $("#btn-mc").click(function() {
-		window.location.replace("?market=mc");
+		window.location.replace("?market=mc&source=index");
 });
 $("#btn-os").click(function() {
-		window.location.replace("?market=os");
+		window.location.replace("?market=os&source=index");
 });
 $("#btn-sd").click(function() {
-		window.location.replace("?market=sd");
+		window.location.replace("?market=sd&source=index");
 });
 $("#btn-ss").click(function() {
-		window.location.replace("?market=ss");
+		window.location.replace("?market=ss&source=index");
 });
 $("#btn-tw").click(function() {
-		window.location.replace("?market=tw");
+		window.location.replace("?market=tw&source=index");
 });
 $("#btn-vg").click(function() {
-		window.location.replace("?market=vg");
+		window.location.replace("?market=vg&source=index");
 });
 
 $("#btn-index").click(function() {
