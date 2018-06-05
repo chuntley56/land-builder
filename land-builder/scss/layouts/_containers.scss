@@ -1,66 +1,62 @@
 .panel-half {
-  margin: 18px auto;
-  padding: 10px;
-  width: 350px;
-  min-height: 601px;
-  position: relative;
+	margin: 18px auto;
+	padding: 10px;
+	width: 350px;
+	min-height: 601px;
+	position: relative;
 }
 
 .panel-body {
-  padding: 0 15px;
+	padding: 0 15px;
 }
 
 .panel-row {
-  max-width: 820px;
-  margin: 30px auto 0;
+	max-width: 820px;
+	margin: 30px auto 0;
 }
 
 .offer-bullets {
-  list-style-type: none;
-  margin: 25px auto 0;
-  padding: 0;
-  text-align: center;
+	list-style-type: none;
+	margin: 25px auto 0;
+	padding: 0;
+	text-align: center;
 }
 
 #countdown1,
 #countdown2,
 #countdown3,
 #countdown4 {
-  display: none;
-}
-
-h2.offer-main-color {
-  height: 50px;
+	display: none;
 }
 
 .device-img {
-  width: 320px;
+	width: 320px;
 }
 
 .offer-terms {
-  margin: 10px auto 25px;
+	margin: 10px auto 25px;
 }
 
 @media (max-width: $break-tablet) {
-  .no-gutter {
-    margin: 0;
-    padding: 0;
-  }
+	.no-gutter {
+		margin: 0;
+		padding: 0;
+	}
 
-  .panel-half {
-    min-width: 0;
-    display: inline-block;
-  }
+	.panel-half {
+		min-width: 0;
+		display: inline-block;
+	}
 }
 
 @media (max-width: 420px) {
-  .panel-row {
-    margin: 20px auto 0;
-  }
+	.panel-row {
+		margin: 20px auto 0;
+	}
 }
 
 @media (max-width: 375px) {
-  .panel-half {
-    width: 100%;
-  }
+	.panel-half {
+		width: 100%;
+	}
 }

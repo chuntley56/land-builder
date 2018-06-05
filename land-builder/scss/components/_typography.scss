@@ -19,16 +19,17 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
+	margin: 0 auto 3px;
+	font-size: 26px;
 	font-weight: 700;
-	margin: 5px auto;
+	color: $color-second;
 }
 
 h4 {
 	font-size: 14px;
 	font-weight: 500;
 	line-height: 18px;
-	margin: 5px auto;
+	margin: 0 auto;
 }
 
 .countdown {
@@ -46,23 +47,8 @@ li {
 	margin: 7px 0;
 }
 
-.offer-terms h3 {
-	margin: 0 auto 3px;
-	font-size: 26px;
-	color: $color-second;
-	letter-spacing: -0.25px;
-}
-
-.offer-terms h4 {
-	margin: 0 auto;
-}
-
 .offer-main-color {
 	color: $offer-main-color;
-}
-
-.offer-sub-color {
-	color: $offer-sub-color;
 }
 
 @media (max-width: 374px) {
