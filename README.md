@@ -1,5 +1,5 @@
 # Landing Page Builder Tool
-A tool that helps you build a large number of landing pages. Uses JsRender to dynamically pull in JSON data to create html. 
+Landing pages templating tool built with JsRender & JSON. 
 
 ## Demo
 https://chuntley56.github.io/land-builder/land-builder/?market=bs&source=index
