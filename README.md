@@ -1,5 +1,5 @@
 # Landing Page Builder Tool
-Landing pages templating tool built with JsRender & JSON. 
+Landing page template tool built with JsRender & JSON. 
 
 ## Demo
 https://chuntley56.github.io/land-builder/land-builder/?market=bs&source=index
